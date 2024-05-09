@@ -669,7 +669,7 @@ button.normal:hover, #newsletter button:hover {
     line-height: 25px;
 }
 
-#.people div p span {
+.people div p span {
     display: block;
     font-size: 16px;
     font-weight: 700;
