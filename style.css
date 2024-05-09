@@ -582,12 +582,13 @@ button.normal:hover, #newsletter button:hover {
 
 #contact-details {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
 }
 
 #contact-details .details {
     width: 40%;
+    padding-right: 10px;
 }
 
 #contact-details .details span,
@@ -627,8 +628,11 @@ button.normal:hover, #newsletter button:hover {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 80px;
+    padding: 0;
+    padding-top: 15px;
     border: 1px solid #e1e1e1;
+    display: flex;
+    flex-direction: row;
 }
 
 #form-details form {
@@ -685,7 +689,7 @@ button.normal:hover, #newsletter button:hover {
 
 /* Start Media Query */
 
-@media (max-width: 860px) {
+@media (max-width: 860px), (max-height:1360px) {
     .section-p1 {
         padding: 40px;
     }
