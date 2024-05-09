@@ -623,7 +623,7 @@ button.normal:hover, #newsletter button:hover {
 }
 
 #form-details {
-    flex: none;
+    display: flex;
     justify-content: space-between;
     margin: 30px;
     padding: 80px;
