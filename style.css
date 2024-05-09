@@ -684,9 +684,9 @@ button.normal:hover, #newsletter button:hover {
 
 /* Start Media Query */
 
-@media (max-width:860px) {
+@media (max-width: 860px) {
     .section-p1 {
-        padding: 40px 40px;
+        padding: 40px;
     }
 
     #navbar {
@@ -702,11 +702,11 @@ button.normal:hover, #newsletter button:hover {
         background-color: #E3E6F3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.6);
         padding: 80px 0 0 10px;
-        transition: .4s ease-in-out;
+        transition: 0.4s ease-in-out;
     }
 
     #navbar.active {
-        right: 0px;
+        right: 0;
     }
 
     #navbar li {
@@ -738,25 +738,28 @@ button.normal:hover, #newsletter button:hover {
     }
 
     #hero {
-        height: 100dvh;
-        padding: 0 80px;
+        height: 100vh;
+        padding: 0 40px;
         background-position: top 30% right 20%;
     }
 
     #feature {
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     #feature .fe-box {
-        margin: 15px 15px;
+        margin: 15px 0;
     }
 
     #product1 .pro-container {
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
-    
+
     #product1 .pro {
-        margin: 15px;
+        width: 100%;
+        margin: 15px 0;
     }
 
     #banner {
@@ -767,26 +770,27 @@ button.normal:hover, #newsletter button:hover {
         width: 100%;
     }
 
-    /* Contact Page */
-
     #form-details {
         padding: 40px;
         flex-direction: column;
-        
+    }
+
+    #form-details form {
+        width: 100%;
     }
 }
 
-@media (max-width:480px) {
+@media (max-width: 600px) {
     .section-p1 {
         padding: 20px;
     }
 
     #header {
-        padding: 10px 30px;
+        padding: 10px 20px;
     }
 
-    h1{
-        font: 38px;
+    h1 {
+        font-size: 38px;
     }
 
     h2 {
@@ -799,7 +803,8 @@ button.normal:hover, #newsletter button:hover {
     }
 
     #feature {
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
     }
 
     #feature .fe-box {
@@ -823,23 +828,18 @@ button.normal:hover, #newsletter button:hover {
         width: 100%;
     }
 
-    /* Single Product */
-
     #prodetails {
-        display: flex;
         flex-direction: column;
     }
 
     #prodetails .single-pro-image {
         width: 100%;
-        margin-right: 0px;
+        margin-right: 0;
     }
 
     #prodetails .single-pro-details {
         width: 100%;
-    } 
-
-    /* About Page */
+    }
 
     #about-head {
         flex-direction: column;
@@ -851,7 +851,7 @@ button.normal:hover, #newsletter button:hover {
     }
 
     #about-head div {
-        padding-left: 0px;
+        padding-left: 0;
     }
 
     #about-app .video {
