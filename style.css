@@ -736,7 +736,7 @@ button.normal:hover, #newsletter button:hover {
 
 /* Start Media Query */
 
-@media (max-width: 800px)  or (min-height:1360px) {
+@media (max-width: 800px) {
     .section-p1 {
         padding: 40px;
     }
