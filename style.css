@@ -575,11 +575,6 @@ button.normal:hover, #newsletter button:hover {
     padding-left: 40px;
 }
 
-#about-head marquee {    
-    padding-left: 10px;
-    margin-right: 10px;
-}
-
 /* Start Media Query */
 
 @media (max-width:860px) {
