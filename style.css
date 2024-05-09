@@ -574,6 +574,51 @@ button.normal:hover, #newsletter button:hover {
     padding-left: 40px;
 }
 
+
+/* Contact Page */
+
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details {
+    width: 40%;
+}
+
+#contact-details .details span {
+    font-size: 12px;
+}
+
+#contact-details .details h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i {
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
 /* Start Media Query */
 
 @media (max-width:860px) {
@@ -660,7 +705,7 @@ button.normal:hover, #newsletter button:hover {
     }
 }
 
-@media (max-width:477px) {
+@media (max-width:480px) {
     .section-p1 {
         padding: 20px;
     }
@@ -722,4 +767,23 @@ button.normal:hover, #newsletter button:hover {
     #prodetails .single-pro-details {
         width: 100%;
     } 
+
+    /* About Page */
+
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div {
+        padding-left: 0px;
+    }
+
+    #about-app .video {
+        width: 100%;
+    }
 }
