@@ -849,7 +849,7 @@ button.normal:hover, #newsletter button:hover {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .section-p1 {
         padding: 20px;
     }
