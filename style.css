@@ -652,12 +652,12 @@ button.normal:hover, #newsletter button:hover {
 }
 
 #form-details .people div {
+    padding-left: 12px;
     padding-bottom: 25px;
     display: flex
 }
 
 #form-details .people div img {
-    padding-left: 12px;
     width: 65px;
     height: 65px;
     object-fit: cover;
