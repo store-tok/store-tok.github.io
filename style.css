@@ -559,6 +559,14 @@ button.normal:hover, #newsletter button:hover {
 
 .about-header {
     background-image: url(img/about/a1.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
 }
 
 #about-head {
