@@ -557,10 +557,6 @@ button.normal:hover, #newsletter button:hover {
 
 /* About Page */
 
-#page-header .about-header {
-    background-image: url(img/banner/b-a.png);
-}
-
 #about-head {
     display: flex;
     align-items: center;
