@@ -652,7 +652,7 @@ button.normal:hover, #newsletter button:hover {
 }
 
 #form-details .people div {
-    padding-left: 12px;
+    margin-left: 12px;
     padding-bottom: 25px;
     display: flex
 }
