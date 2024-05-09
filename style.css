@@ -625,7 +625,7 @@ button.normal:hover, #newsletter button:hover {
 
 #form-details {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 30px;
     padding: 80px;
     border: 1px solid #e1e1e1;
@@ -635,7 +635,7 @@ button.normal:hover, #newsletter button:hover {
     width: 65%;
     display: flex;
     flex-direction: column;
-    align-items: stetch;
+    align-items: center;
 }
 
 #form-details form input,
@@ -645,11 +645,6 @@ button.normal:hover, #newsletter button:hover {
     outline: none;
     margin-bottom: 20px;
     border: 1px solid #e1e1e1;
-}
-
-#form-details form button {
-    background-color: #088178;
-    color: #fff;
 }
 
 #form-details form .people {
@@ -684,6 +679,7 @@ button.normal:hover, #newsletter button:hover {
     font-weight: 700;
     color: #1d1d1d;
 }
+
 
 
 /* Start Media Query */
@@ -768,13 +764,15 @@ button.normal:hover, #newsletter button:hover {
     }
 
     #newsletter .form {
-        width: 70%;
+        width: 100%;
     }
 
     /* Contact Page */
 
     #form-details {
         padding: 40px;
+        flex-direction: column;
+        
     }
 }
 
