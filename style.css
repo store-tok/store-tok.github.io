@@ -555,6 +555,31 @@ button.normal:hover, #newsletter button:hover {
     line-height: 25px;
 }
 
+/* About Page */
+
+#page-header .about-header {
+    background-image: url(img/banner/b-a.png);
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+}
+
+#about-head img {
+    width: 50%;
+    height: auto;
+}
+
+#about-head div {
+    padding-left: 40px;
+}
+
+#about-head marquee {    
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
 /* Start Media Query */
 
 @media (max-width:860px) {
