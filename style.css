@@ -55,7 +55,8 @@ span {
 
 input,
 select,
-textarea {
+textarea,
+#form-details {
     font-size: 14px;
     text-align: center;
     font-weight: 700;
@@ -624,7 +625,6 @@ button.normal:hover, #newsletter button:hover {
 
 #form-details {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     margin: 30px;
     padding: 80px;
