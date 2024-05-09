@@ -589,6 +589,7 @@ button.normal:hover, #newsletter button:hover {
 #contact-details .details {
     width: 40%;
     padding-right: 10px;
+    text-align: center;
 }
 
 #contact-details .details span,
@@ -901,6 +902,92 @@ button.normal:hover, #newsletter button:hover {
 }
 
 @media (max-width: 856px) {
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 10px 20px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 75%;
+    }
+
+    #feature {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    #newsletter {
+        padding: 40px 20px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    #prodetails {
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #prodetails .single-pro-details {
+        width: 100%;
+    }
+
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div {
+        padding-left: 0;
+    }
+
+    #about-app .video {
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    #form-details form .people {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-height: 1360px) {
     .section-p1 {
         padding: 20px;
     }
