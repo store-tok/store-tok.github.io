@@ -651,27 +651,35 @@ button.normal:hover, #newsletter button:hover {
     color: #fff;
 }
 
+#form-details form .people {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
 #form-details form .people div {
-    padding-bottom: 25px;
-    display: flex
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
 }
 
 #form-details form .people div img {
-    width: 65px !important;
+    width: 65px;
     height: 65px;
     object-fit: cover;
-    margin-right: 15px;
+    margin-bottom: 10px;
 }
 
 #form-details form .people div p {
-    margin: 0;
-    font-size: 9px;
-    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: normal;
 }
 
 #form-details form .people div p span {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: #1d1d1d;
 }
