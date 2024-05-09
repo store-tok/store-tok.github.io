@@ -987,7 +987,7 @@ button.normal:hover, #newsletter button:hover {
     }
 }
 
-@media (max-height: 1360px) {
+@media (max-height: 1370px) {
     .section-p1 {
         padding: 20px;
     }
