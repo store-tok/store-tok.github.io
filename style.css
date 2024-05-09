@@ -765,6 +765,12 @@ button.normal:hover, #newsletter button:hover {
     #newsletter .form {
         width: 70%;
     }
+
+    /* Contact Page */
+
+    #form-details {
+        padding: 40px;
+    }
 }
 
 @media (max-width:480px) {
