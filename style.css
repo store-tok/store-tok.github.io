@@ -1067,8 +1067,18 @@ button.normal:hover, #newsletter button:hover {
 
     /* Contact Page */
 
+    #contact-details,
     #form-details form .people {
         display: flex;
         flex-direction: column;
+    }
+
+    #contact-details .details{
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 }
