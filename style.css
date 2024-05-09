@@ -782,7 +782,8 @@ button.normal:hover, #newsletter button:hover {
 
     /* Contact Page */
 
-    #contact-details {
+    #contact-details,
+    #form-details form .people {
         flex-direction: column;
     }
 
@@ -872,7 +873,8 @@ button.normal:hover, #newsletter button:hover {
 
     /* Contact Page */
 
-    #contact-details {
+    #contact-details,
+    #form-details form .people {
         flex-direction: column;
     }
 
@@ -880,5 +882,6 @@ button.normal:hover, #newsletter button:hover {
         width: 100%;
         margin-bottom: 30px;
     }
+    
 
 }
