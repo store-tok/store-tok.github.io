@@ -624,6 +624,7 @@ button.normal:hover, #newsletter button:hover {
 
 #form-details {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin: 30px;
     padding: 80px;
