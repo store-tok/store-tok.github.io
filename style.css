@@ -651,8 +651,11 @@ button.normal:hover, #newsletter button:hover {
     color: #fff;
 }
 
+#form-details .people {
+    padding-left: 12px;
+}
+
 #form-details .people div {
-    margin-left: 12px;
     padding-bottom: 25px;
     display: flex
 }
