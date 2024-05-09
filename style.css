@@ -671,6 +671,7 @@ button.normal:hover, #newsletter button:hover {
     text-align: center;
     font-size: 12px;
     line-height: normal;
+    padding: 15p
 }
 
 #form-details form .people div p span {
@@ -778,6 +779,17 @@ button.normal:hover, #newsletter button:hover {
     #form-details form {
         width: 100%;
     }
+
+    /* Contact Page */
+
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -857,4 +869,16 @@ button.normal:hover, #newsletter button:hover {
     #about-app .video {
         width: 100%;
     }
+
+    /* Contact Page */
+
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
 }
