@@ -889,3 +889,10 @@ button.normal:hover, #newsletter button:hover {
     
 
 }
+
+@media (max-width: 856px) {
+    #form-details form .people {
+        display: flex;
+        flex-direction: column;
+    }
+}
