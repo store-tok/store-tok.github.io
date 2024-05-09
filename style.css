@@ -626,7 +626,7 @@ button.normal:hover, #newsletter button:hover {
 #form-details {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 0;
     padding: 80px;
     border: 1px solid #e1e1e1;
 }
