@@ -635,7 +635,8 @@ button.normal:hover, #newsletter button:hover {
     width: 65%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stetch;
+    display: center;
 }
 
 #form-details form input,
