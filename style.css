@@ -53,7 +53,9 @@ span {
     color: #088178;
 }
 
-input, select {
+input,
+select,
+textarea {
     font-size: 14px;
     text-align: center;
     font-weight: 700;
@@ -655,6 +657,7 @@ button.normal:hover, #newsletter button:hover {
 }
 
 #form-details .people div img {
+    padding-left: 12px;
     width: 65px;
     height: 65px;
     object-fit: cover;
