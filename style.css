@@ -651,29 +651,25 @@ button.normal:hover, #newsletter button:hover {
     color: #fff;
 }
 
-#form-details .people {
-    padding-left: 12px;
-}
-
-#form-details .people div {
+.people div {
     padding-bottom: 25px;
     display: flex
 }
 
-#form-details .people div img {
+.people div img {
     width: 65px;
     height: 65px;
     object-fit: cover;
     margin-right: 15px;
 }
 
-#form-details .people div p {
+.people div p {
     margin: 0;
     font-size: 9px;
     line-height: 25px;
 }
 
-#form-details .people div p span {
+#.people div p span {
     display: block;
     font-size: 16px;
     font-weight: 700;
