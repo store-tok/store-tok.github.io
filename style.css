@@ -251,19 +251,17 @@ body {
 #product1 .pro-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
     flex-wrap: wrap;
-    transition: 0.8s ease;
 }
 
 #product1 .pro {
-    width: 40%;
+    width: 31%;
+    margin: 1%;
     padding: 10px 12px;
     border: 1px solid #088178;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.6);
-    margin: 15px 0;
     transition: .3s ease-in;
     position: relative;
 }
