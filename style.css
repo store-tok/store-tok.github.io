@@ -204,7 +204,7 @@ body {
     background-color: #d5d7e4;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: nowrap;
 }
 
@@ -575,7 +575,20 @@ button.normal:hover, #newsletter button:hover {
 }
 
 #about-head div {
-    padding-left: 40px;
+    padding: 20px;
+}
+
+#about-head div p {
+    padding: 10px;  
+}
+
+#about-head div marquee {
+    border-radius: 30px;
+    padding: 3px;
+}
+
+#about-head div #feature {
+    border-radius: 15px;
 }
 
 
