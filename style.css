@@ -98,6 +98,7 @@ button.normal {
 body {
     width: 100%;
     background-color: #E3E6F3;
+    transition: .4s ease-in-out;
 }
 
 /* Header Start */
@@ -252,6 +253,8 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-top:20px;
+    transition: .8s ease-in-out;
 }
 
 #product1 .pro {
@@ -261,7 +264,7 @@ body {
     border: 1px solid #088178;
     border-radius: 25px;
     cursor: pointer;
-    box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.6);
     transition: .3s ease-in;
     position: relative;
 }
@@ -750,7 +753,6 @@ button.normal:hover, #newsletter button:hover {
         height: 100vh;
         width: 150px;
         background-color: #E3E6F3;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.6);
         padding: 80px 0 0 10px;
         transition: 0.4s ease-in-out;
     }
@@ -794,7 +796,7 @@ button.normal:hover, #newsletter button:hover {
     }
 
     #feature {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
@@ -870,7 +872,7 @@ button.normal:hover, #newsletter button:hover {
     }
 
     #feature {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
