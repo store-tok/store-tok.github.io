@@ -574,19 +574,19 @@ button.normal:hover, #newsletter button:hover {
     height: auto;
 }
 
-#about-head div {
+#about-head div section {
     padding: 20px;
 }
 
-#about-head div p {
+#about-head div section p {
     padding: 10px;  
 }
 
-#about-head div marquee {
+#about-head div section marquee {
     border-radius: 35px;
 }
 
-#about-head div #feature {
+#about-head div section #feature {
     border-radius: 15px;
 }
 
@@ -931,8 +931,9 @@ button.normal:hover, #newsletter button:hover {
         margin-bottom: 20px;
     }
 
-    #about-head div {
+    #about-head div section {
         padding-left: 0;
+        text-align: center;
     }
 
     #about-app .video {
