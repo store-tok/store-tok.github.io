@@ -601,6 +601,7 @@ button.normal:hover, #newsletter button:hover {
 #about-head div section marquee {
     border-radius: 35px;
     align-content: center;
+    padding: 5px;
 }
 
 #about-head div section #feature {
