@@ -586,11 +586,16 @@ button.normal:hover, #newsletter button:hover {
     border-radius: 15px;
     flex-direction: column;
     max-width: 100%;
+    text-align: center;
 }
 
 
 #about-head div section p {
     padding: 10px;  
+}
+
+#about-head div section h2 {
+    padding-top: 15px;
 }
 
 #about-head div section marquee {
