@@ -574,9 +574,20 @@ button.normal:hover, #newsletter button:hover {
     height: auto;
 }
 
-#about-head div section {
+#about-head div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
     padding: 20px;
+    padding-top: 15px;
+    border: 1px solid #e1e1d1;
+    box-shadow: 5px 5px 5px #e1e1e1;
+    border-radius: 15px;
+    flex-direction: column;
+    max-width: 100%;
 }
+
 
 #about-head div section p {
     padding: 10px;  
