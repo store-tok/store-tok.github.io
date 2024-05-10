@@ -583,8 +583,7 @@ button.normal:hover, #newsletter button:hover {
 }
 
 #about-head div marquee {
-    border-radius: 30px;
-    padding: 3px;
+    border-radius: 35px;
 }
 
 #about-head div #feature {
