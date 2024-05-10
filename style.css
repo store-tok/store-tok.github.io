@@ -591,7 +591,7 @@ button.normal:hover, #newsletter button:hover {
 
 
 #about-head div section p {
-    padding: 10px;  
+    padding: 4px;  
 }
 
 #about-head div section h2 {
@@ -600,10 +600,12 @@ button.normal:hover, #newsletter button:hover {
 
 #about-head div section marquee {
     border-radius: 35px;
+    align-content: center;
 }
 
 #about-head div section #feature {
     border-radius: 15px;
+    background: none;
 }
 
 
@@ -902,11 +904,17 @@ button.normal:hover, #newsletter button:hover {
     #feature {
         flex-direction: row;
         align-items: center;
+        display: flex;
+        background: none;
+        box-shadow: none;
+        margin: 0;
     }
 
     #feature .fe-box {
         width: 155px;
         margin: 0 0 15px 0;
+        border: 0;
+        box-shadow: none;
     }
 
     #product1 .pro {
@@ -950,6 +958,7 @@ button.normal:hover, #newsletter button:hover {
     #about-head div section {
         padding-left: 0;
         text-align: center;
+        justify-content: center;
     }
 
     #about-app .video {
