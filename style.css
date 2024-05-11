@@ -385,6 +385,8 @@ button.normal:hover, #newsletter button:hover {
     background-color: rgba(243, 181, 25, 0.425);
     background-repeat: no-repeat;
     background-position: 20% 30%;
+    align-content: center;
+    text-align: center;
 }
 
 #newsletter h4 {
@@ -405,7 +407,11 @@ button.normal:hover, #newsletter button:hover {
 
 #newsletter .form {
     display: flex;
-    width: 40%;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 5rem;
+    text-wrap: nowrap;
 }
 
 #newsletter input {
@@ -436,7 +442,7 @@ button.normal:hover, #newsletter button:hover {
 }
 
 #newsletter button:hover {
-    color: #e8f6ea;
+    color: #088178; /* Change this to a contrasting color */
 }
 
 .footer-text {
@@ -602,6 +608,9 @@ button.normal:hover, #newsletter button:hover {
     border-radius: 35px;
     align-content: center;
     padding: 5px;
+    background-color: #e1e1e1;
+    border: 1px solid #0881793b;
+    box-shadow: 0px 1px 10px #0881793b;
 }
 
 #about-head div section #feature {
@@ -983,4 +992,116 @@ button.normal:hover, #newsletter button:hover {
     }
     
 
+}
+
+@media (width: 912px) and (height: 1368px) {
+    .section-p1 {
+        padding: 40px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -150px;
+        height: 100vh;
+        width: 150px;
+        background-color: #E3E6F3;
+        padding: 80px 0 0 10px;
+        transition: 0.4s ease-in-out;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    #hero {
+        height: 100vh;
+        padding: 0 40px;
+        background-position: top 30% right 20%;
+    }
+
+    #feature {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #feature .fe-box {
+        margin: 15px 0;
+    }
+
+    #product1 .pro-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #product1 .pro {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    #banner {
+        display: none;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    #form-details {
+        padding: 40px;
+        flex-direction: column;
+    }
+
+    #form-details form {
+        width: 100%;
+    }
+
+    /* Contact Page */
+
+    #contact-details,
+    #form-details form .people {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact-details .details{
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }
